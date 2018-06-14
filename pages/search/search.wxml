@@ -1,0 +1,4 @@
+<input class='search' placeholder='请输入商家信息'  type='text' confirm-type='search' bindinput='input1' bindconfirm='confirm1' />
+<view wx:for="{{hosList}}" wx:for-item="h">
+  <text bindtap='{{h.bindtap}}' wx:if="{{h.show}}">{{h.name}}</text>
+</view>

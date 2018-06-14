@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",    
+    "pages/bgy/bgy",    
+    "pages/search/search", 
+    "pages/about/about",
+    "pages/busact/busact",
+    "pages/busres/busres",
+    "pages/logs/logs",
+    "pages/memlist/members"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鑫美包装袋经销处",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ebebeb",
+    "color": "#000000",
+    "selectedColor": "#2e6a7d",
+    "list": [
+      {
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_on.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "iconPath": "images/res.png",
+        "selectedIconPath": "images/res_on.png",
+        "pagePath": "pages/busres/busres",
+        "text": "产品展示"
+      },
+      {
+        "iconPath": "images/act.png",
+        "selectedIconPath": "images/act_on.png",
+        "pagePath": "pages/busact/busact",
+        "text": "商家活动"
+      },
+      {
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_on.png",
+        "pagePath": "pages/about/about",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

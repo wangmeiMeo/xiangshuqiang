@@ -1,0 +1,8 @@
+<view class='content'>
+  <image class='logo' src='../../images/banner01.jpg' mode='widthFix'></image>
+  <text class='title'>商品详情</text>
+  <view class='pass'>
+    <text>新乐市鑫美包装袋经销处成立于2012-11-22 注册资本，我单位地址位于美丽的新乐市相家庄村富强街3排负1号 经营范围为包装袋销售.自成立以来发展迅速，业务不断发展壮大.</text>
+    <text>我们始终坚持用户至上，用心服务于客户，坚持用自己的服务去打动客户，我们秉承“保证一流质量，保持一级信誉”的经营理念，坚持“客户第一”的原则为广大客户提供优质的服务。欢迎新老客户咨询合作！</text>
+  </view>
+</view>

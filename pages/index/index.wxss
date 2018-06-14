@@ -1,0 +1,174 @@
+.bannerswiper {
+  height: 25vh;
+  width: 100%;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.usernews {
+  height: 8vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 90vw;
+  background-color: white;
+}
+
+.user-p {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3vh 4vh;
+}
+
+.photo {
+  overflow: hidden;
+  display: block;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.userinfo {
+  width: 12vh;
+  height: 12vh;
+  position: absolute;
+  left: 1vh;
+  top: 26vh;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.news {
+  background-color: #ebebeb;
+  width: 75vw;
+  padding-left: 15vw;
+  display: flex;
+  align-items: center;
+  border-radius: 15rpx;
+}
+
+.left-f {
+  height: 80%;
+  border-right: 2rpx solid gray;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #2e6a7d;
+  width: 35vw;
+}
+
+.right-f {
+  width: 50vw;
+  padding-left: 20rpx;
+}
+
+.news-con {
+  width: 50vw;
+  font-size: 18rpx;
+  color: black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mem-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: row;
+  padding-top: 2vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+   padding-bottom: 2vh;
+}
+.m1{
+  width: 25vw;
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #2e6a7d;
+}
+.m2{
+  width: 30vw;
+}
+.m3{
+  background-color: #ebebeb;
+  width: 38vw;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40rpx;
+
+}
+.search-icon{
+  width:32rpx;
+  height:32rpx;
+  margin-left: 6rpx;
+}
+.search-f{
+color: #888888;
+  font-size: 18rpx;
+  
+}
+
+.cus-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cus-icon{
+  width: 20vw;
+  height: 20vw;
+  margin: 1vw 2vw;
+}
+.main-con{
+  border-bottom: 1rpx solid #ebebeb;
+  border-top: 1rpx solid #ebebeb;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.bottom-title{
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #2e6a7d;
+  text-align: left;
+  width: 90vw;
+  padding:3vh 4vh;
+}
+
+.bottom-grid{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+  font-size: 28rpx;
+  
+}
+.bottom-con{
+  width: 20vw;
+  
+  margin-right: 2vw;
+ 
+  display: flex;
+  align-items: center;
+  
+  padding-right: 4rpx;
+}
+.bcimage{
+  height: 7vh;
+}

@@ -1,0 +1,87 @@
+<!--index.wxml-->
+<view class="container">
+
+  <swiper class="bannerswiper" indicator-dots="true"  circular="true">
+    <block wx:for="{{banner}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='user-p'>
+    <view class='usernews'>
+      <view class='news'>
+        <view class='left-f'>
+          公司动态
+        </view>
+
+        <view class='right-f'>
+          <view class='news-con'>
+            相家庄书强无纺布袋厂新闻一
+          </view>
+          <view class='news-con'>
+            相家庄书强无纺布袋厂新闻二
+          </view>
+          <view class='news-con'>
+            相家庄书强无纺布袋厂新闻三
+          </view>
+        </view>
+      </view>
+      <view class='userinfo'>
+        <view class='photo'>
+          <open-data type="userAvatarUrl"></open-data>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='main-con'>
+    <view class='mem-title'>
+      <view class='m1'>商品展示</view>
+      <view class='m2'></view>
+      <view class='m3' bindtap='gotomemlist'>
+        <image src='../../images/search.png' class='search-icon'></image>
+        <view class='search-f'>
+          获取更多商品信息
+        </view>
+      </view>
+    </view>
+    <view class='cus-grid'>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c1.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c2.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c3.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c4.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c4.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c3.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c2.jpg'></image>
+      </view>
+      <view class='cus-icon' bindtap='bgy'>
+        <image src='../../images/c1.jpg'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='bottom-title'>
+    <view>
+      联系方式
+    </view>
+  </view>
+
+  <view class='bottom-grid'>
+   <text>相书强:15130107396</text>
+  </view>
+
+</view>

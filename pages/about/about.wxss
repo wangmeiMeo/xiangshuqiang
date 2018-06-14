@@ -1,0 +1,30 @@
+/* pages/about.wxss */
+@import "/wxParse/wxParse.wxss";
+.logo {
+  width: 100vw;
+  text-align: center;
+  padding-top: 3vh;
+}
+.logo image{
+  width: 60%;
+}
+.txt-content{
+  margin-top:3vw; 
+  width: 90vw;
+  color: #666;
+  text-indent: 2em;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  margin-bottom: 30rpx;
+}
+.bottom-btn{
+  width: 90vw;
+  text-align: left;
+  font-size: 30rpx;
+}
+.bottom-btn image{
+  width: 40%;
+}
+.wxParse-p{
+  font-size: 26rpx;
+}

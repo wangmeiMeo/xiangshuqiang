@@ -1,0 +1,21 @@
+.search {
+  width: 85vw;
+  padding-left: 5%;
+  background-color: #ebebeb;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  font-size: 30rpx;
+  border-radius: 15rpx;
+  margin: 0 auto 30rpx;
+}
+text{
+  display: block;
+  font-size: 30rpx;
+  width: 90vw;
+  margin: 0 auto;
+  line-height: 46rpx;
+  color: #666;
+}
