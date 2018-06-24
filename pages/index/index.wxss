@@ -132,12 +132,18 @@ color: #888888;
   width: 20vw;
   height: 20vw;
   margin: 1vw 2vw;
+  background: #fff;
+  box-shadow: 3px 4px 5px #e6e6e6;
+  border-radius:10rpx; 
 }
 .main-con{
   border-bottom: 1rpx solid #ebebeb;
   border-top: 1rpx solid #ebebeb;
   padding-top: 2vh;
   padding-bottom: 2vh;
+}
+.cus-icon image{
+  border-radius:10rpx; 
 }
 
 .bottom-title{

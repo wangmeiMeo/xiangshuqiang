@@ -32,7 +32,6 @@ page {
   display: block;
   width: 100%;
   margin: 0 auto 10rpx;
-  padding-top: 90rpx;
 }
 .er{
   display: block;

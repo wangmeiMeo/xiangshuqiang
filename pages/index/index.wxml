@@ -15,16 +15,15 @@
         <view class='left-f'>
           公司动态
         </view>
-
         <view class='right-f'>
           <view class='news-con'>
-            相家庄书强无纺布袋厂新闻一
+            相家庄鑫美包装无纺布经销处
           </view>
           <view class='news-con'>
-            相家庄书强无纺布袋厂新闻二
+            联系人:相书强
           </view>
-          <view class='news-con'>
-            相家庄书强无纺布袋厂新闻三
+          <view class='news-con' data-reply-phone="15130107396" bindtap="phoneCall" >
+            联系方式：15130107396
           </view>
         </view>
       </view>
@@ -37,39 +36,33 @@
   </view>
   <view class='main-con'>
     <view class='mem-title'>
-      <view class='m1'>商品展示</view>
+      <view class='m1'>产品展示</view>
       <view class='m2'></view>
-      <view class='m3' bindtap='gotomemlist'>
-        <image src='../../images/search.png' class='search-icon'></image>
-        <view class='search-f'>
-          获取更多商品信息
-        </view>
-      </view>
     </view>
     <view class='cus-grid'>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c1.jpg'></image>
+        <image data-src='../../images/c1.jpg' src='../../images/c1.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c2.jpg'></image>
+        <image data-src='../../images/c2.jpg' src='../../images/c2.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c3.jpg'></image>
+        <image data-src='../../images/c3.jpg' src='../../images/c3.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c4.jpg'></image>
+        <image data-src='../../images/c4.jpg' src='../../images/c4.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c4.jpg'></image>
+        <image data-src='../../images/c5.jpg' src='../../images/c5.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c3.jpg'></image>
+        <image data-src='../../images/c6.jpg' src='../../images/c6.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c2.jpg'></image>
+        <image data-src='../../images/c7.jpg' src='../../images/c7.jpg'></image>
       </view>
       <view class='cus-icon' bindtap='bgy'>
-        <image src='../../images/c1.jpg'></image>
+        <image data-src='../../images/c8.jpg' src='../../images/c8.jpg'></image>
       </view>
     </view>
   </view>
@@ -80,7 +73,7 @@
     </view>
   </view>
 
-  <view class='bottom-grid'>
+  <view class='bottom-grid' data-reply-phone="15130107396" bindtap="phoneCall">
    <text>相书强:15130107396</text>
   </view>
 

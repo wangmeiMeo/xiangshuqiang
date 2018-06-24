@@ -1,18 +1,15 @@
 <!--pages/about.wxml-->
-<import src="../../wxParse/wxParse.wxml"/>
+<import src="../../wxParse/wxParse.wxml" />
 <view class='container'>
-  <!-- <view class='logo'>
-    <image mode='widthFix' src='../../images/gy_logo.png'></image>
-  </view> -->
+  <view class='txt-content'>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
 
-<view class='txt-content'>
-  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
-
-</view>
-<view class='bottom-btn'>
+  </view>
+  <view class='bottom-btn' data-reply-phone="15130107396" bindtap="phoneCall">
     联系方式:15130107396
-</view>
-<view class='bottom-btn'>
+  </view>
+  <view class='bottom-btn'>
     移动商铺:http://mip.zhaozhaoqu.com/sp/19334181/
-</view>
+  </view>
+  <button class='btn' type='primary' data-reply-phone="15130107396" bindtap="phoneCall">点击拨打电话</button>
 </view>

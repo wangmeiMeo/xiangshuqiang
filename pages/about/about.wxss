@@ -28,3 +28,8 @@
 .wxParse-p{
   font-size: 26rpx;
 }
+.btn{
+  display: block;
+  width:90%;
+  margin: 40rpx auto;
+}

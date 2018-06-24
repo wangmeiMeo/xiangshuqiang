@@ -38,7 +38,7 @@ export default [
       {
         id: 1,
         name: '百果园50元优惠券',
-        pic: '../../images/c1.jpg',
+        pic: '../../images/c5.jpg',
         desc: '满200可以使用'
       }
     ]
@@ -51,7 +51,7 @@ export default [
       {
         id: 1,
         name: '百果园50元优惠券',
-        pic: '../../images/c2.jpg',
+        pic: '../../images/c6.jpg',
         desc: '满200可以使用'
       }
     ]
@@ -64,7 +64,7 @@ export default [
       {
         id: 1,
         name: '百果园50元优惠券',
-        pic: '../../images/c3.jpg',
+        pic: '../../images/c7.jpg',
         desc: '满200可以使用'
       }
     ]
@@ -77,13 +77,13 @@ export default [
       {
         id: 1,
         name: '百果园50元优惠券',
-        pic: '../../images/c4.jpg',
+        pic: '../../images/c8.jpg',
         desc: '满200可以使用'
       },
       {
         id: 2,
         name: '百果园50元优惠券',
-        pic: '../../images/c1.jpg',
+        pic: '../../images/c9.jpg',
         desc: '满200可以使用'
       }
     ]
@@ -96,7 +96,7 @@ export default [
       {
         id: 1,
         name: '百果园50元优惠券',
-        pic: '../../images/c2.jpg',
+        pic: '../../images/c10.jpg',
         desc: '满200可以使用'
       }
     ]
@@ -109,13 +109,13 @@ export default [
       {
         id: 1,
         name: '活动9',
-        pic: '../../images/c4.jpg',
+        pic: '../../images/c11.jpg',
         desc: ''
       },
       {
         id: 2,
         name: '活动9',
-        pic: '../../images/c3.jpg',
+        pic: '../../images/c12.jpg',
         desc: ''
       }
     ]
@@ -128,7 +128,7 @@ export default [
       {
         id: 1,
         name: '活动9',
-        pic: '../../images/c2.jpg',
+        pic: '../../images/c1.jpg',
         desc: ''
       }
     ]
@@ -141,7 +141,7 @@ export default [
       {
         id: 1,
         name: '活动9',
-        pic: '../../images/c1.jpg',
+        pic: '../../images/c2.jpg',
         desc: ''
       }]
   }

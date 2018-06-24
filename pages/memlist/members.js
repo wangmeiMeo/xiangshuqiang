@@ -32,11 +32,14 @@ Page({
 
 
   /**
-   * 点击进入百果园详情页面
-   */
+  * 点击进入百果园详情页面
+  */
   bgy: function (e) {
+    console.log(e);
+    var src = e.target.dataset.src;
+    console.log(src);
     wx.navigateTo({
-      url: '../bgy/bgy',
+      url: '../bgy/bgy?src=' + src,
     })
   },
 

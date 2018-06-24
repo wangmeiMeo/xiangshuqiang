@@ -5,7 +5,6 @@
     "pages/search/search", 
     "pages/about/about",
     "pages/busact/busact",
-    "pages/busres/busres",
     "pages/logs/logs",
     "pages/memlist/members"
   ],
@@ -29,7 +28,7 @@
       {
         "iconPath": "images/res.png",
         "selectedIconPath": "images/res_on.png",
-        "pagePath": "pages/busres/busres",
+        "pagePath": "pages/memlist/members",
         "text": "产品展示"
       },
       {

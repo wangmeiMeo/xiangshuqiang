@@ -3,7 +3,7 @@
 .menu-wrp {
   overflow: hidden;
   width: 750rpx;
-  height: 93vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   border-top: 1rpx solid #ebebeb;
